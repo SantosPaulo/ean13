@@ -190,13 +190,3 @@ module.exports = {
     validateEan13,
     generateEAN13,
 }
-
-// -----------------------------------------------------------------
-
-
-/* const barcode = calcEanDigit(560999977777);
-
-console.log('EAN13: ', barcode);
-console.log('is valid: ', validateEan13(5609999777778) );
-console.log(getCountries()); */
-/* console.log(generateEAN13(560, 5555, 33333)); */
