@@ -171,11 +171,14 @@ const generateEAN13 = (country, company, productId) => {
     if (!/^[\d]{3}$/.test(country)) {
         throw new Error('Invalid [country] id');
     }
-    if (!/^[\d]{4}$/.test(company)) {
+    if (!/^[\d]{4,5}$/.test(company)) {
         throw new Error('Invalid [company] id');
     }
-    if (!/^[\d]{5}$/.test(productId)) {
+    if (!/^[\d]{4,5}$/.test(productId)) {
         throw new Error('Invalid [productId] id');
+    }
+    if (company.length === 5 && productId.length === 5) {
+        throw new Error('The [company] and [productId] cannot have the same size');
     }
     return calcEanDigit(`${country}${company}${productId}`);
 }
