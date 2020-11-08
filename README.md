@@ -1,4 +1,4 @@
-# Rentals United
+# EAN13
 
 Package for reasily generate EAN13 barcodes and validate them.
 
