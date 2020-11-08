@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/paulo/.nvm/versions/node/v12.18.1/bin/node',
+1 verbose cli   '/home/paulo/.nvm/versions/node/v12.18.1/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--access',
+1 verbose cli   'public',
+1 verbose cli   '--no-cache'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.18.1
+4 verbose npm-session 87c771029662b126
+5 verbose publish [ '.' ]
+6 info lifecycle ean13@1.0.0~prepublish: ean13@1.0.0
+7 info lifecycle ean13@1.0.0~prepare: ean13@1.0.0
+8 info lifecycle ean13@1.0.0~prepublishOnly: ean13@1.0.0
+9 info lifecycle ean13@1.0.0~prepack: ean13@1.0.0
+10 info lifecycle ean13@1.0.0~postpack: ean13@1.0.0
+11 notice
+12 notice 📦  ean13@1.0.0
+13 notice === Tarball Contents ===
+14 notice 154B  false/_cacache/index-v5/36/e3/ab51abb5d146e682cd8c72583a12ad0a0cdafce1c8f3a2d7bd1075fd5cf5
+14 notice 6.3kB ean13.js
+14 notice 51B   index.js
+14 notice 278B  package.json
+14 notice 2.3kB false/_logs/2020-11-08T14_34_43_681Z-debug.log
+14 notice 453B  README.md
+15 notice === Tarball Details ===
+16 notice name:          ean13
+16 notice version:       1.0.0
+16 notice package size:  3.7 kB
+16 notice unpacked size: 9.5 kB
+16 notice shasum:        e77b9a29fa4439d37c9f59e3f18335e4d9172957
+16 notice integrity:     sha512-UhQKvScyFM4fi[...]n0kjul3vgW/rw==
+16 notice total files:   6
+17 notice
+18 http fetch PUT 404 https://registry.npmjs.org/ean13 844ms
+19 verbose stack Error: 404 Not Found - PUT https://registry.npmjs.org/ean13 - Not found
+19 verbose stack     at /home/paulo/.nvm/versions/node/v12.18.1/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:104:15
+19 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+20 verbose statusCode 404
+21 verbose pkgid ean13@1.0.0
+22 verbose cwd /home/paulo/Desktop/ean13
+23 verbose Linux 5.4.0-52-generic
+24 verbose argv "/home/paulo/.nvm/versions/node/v12.18.1/bin/node" "/home/paulo/.nvm/versions/node/v12.18.1/bin/npm" "publish" "--access" "public" "--no-cache"
+25 verbose node v12.18.1
+26 verbose npm  v6.14.5
+27 error code E404
+28 error 404 Not Found - PUT https://registry.npmjs.org/ean13 - Not found
+29 error 404
+30 error 404 'ean13@1.0.0' is not in the npm registry.
+31 error 404 You should bug the author to publish it (or use the name yourself!)
+32 error 404 Note that you can also install from a
+33 error 404 tarball, folder, http url, or git url.
+34 verbose exit [ 1, true ]

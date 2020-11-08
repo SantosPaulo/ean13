@@ -1,0 +1,14 @@
+{
+  "name": "ean13",
+  "version": "1.0.0",
+  "description": "Simple EAN 13 generator package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ean13"
+  ],
+  "author": "Paulo Santos",
+  "license": "ISC"
+}
